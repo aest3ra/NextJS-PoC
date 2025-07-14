@@ -1,0 +1,9 @@
+# CVE-2023-46298
+
+## Build Infrastructure
+```sh
+docker build -t cve-poc .
+docker run -d -p 3000:3000 --name next-app cve-poc
+```
+
+## PoC
